@@ -4,5 +4,5 @@ runs:
   using: composite
   steps:
 #    - run: sh test_script.sh
-    - run: echo "Called from Test-depend"
+    - run: echo "From Test Depend, Tag v1"
       shell: bash
