@@ -1,0 +1,11 @@
+name: 'Test Depend Action'
+description: 'An action to run test_script.sh'
+runs:
+  using: 'composite'
+  steps:
+    - name: Run Test script
+      run: |
+        pwd
+        ls
+        ./test_script.sh
+      shell: bash
