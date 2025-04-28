@@ -4,8 +4,5 @@ runs:
   using: 'composite'
   steps:
     - name: Run Test script
-      run: |
-        pwd
-        ls
-        ./test_script.sh
+      run: ./test_script.sh
       shell: bash
