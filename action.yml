@@ -1,8 +1,8 @@
-name: 'Test Depend Action'
-description: 'An action to run test_script.sh'
+name: "Test Depend Action"
+description: "An action to run test_script.sh"
 runs:
-  using: 'composite'
+  using: composite
   steps:
-    - name: Run Test script
-      run: ./test_script.sh
+#    - run: sh test_script.sh
+    - run: echo "Called from Test-depend"
       shell: bash
